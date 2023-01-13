@@ -12,7 +12,7 @@ public class OpenPageCheck {
 
         open("https://github.com/");
         $("nav").$(byText("Solutions")).hover().click();
-                $(byText("Enterprise")).click();
-$("h1").shouldHave((text("Build like the best")));
+        $(byText("Enterprise")).click();
+        $("h1").shouldHave((text("Build like the best")));
     }
 }
